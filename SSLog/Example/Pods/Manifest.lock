@@ -1,0 +1,16 @@
+PODS:
+  - SSLog (0.1.0)
+
+DEPENDENCIES:
+  - SSLog (from `../`)
+
+EXTERNAL SOURCES:
+  SSLog:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SSLog: 9e9384e3b0944486f7f7b04ef1b2f57f0faadc95
+
+PODFILE CHECKSUM: d6818c032a2e0d24f2e97ef9f4e3a0b22cbb2c26
+
+COCOAPODS: 1.10.0
