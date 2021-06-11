@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03178A032673164B009CAC06 /* SSLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03178A022673164B009CAC06 /* SSLog.swift */; };
 		09729591F2562E81A4A9ADC4974FED1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		3806DCFC9E31A736BC535D2C27907ACD /* Pods-SSLog_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FD64A6BB6A8084D1A22C757F6F2EF55 /* Pods-SSLog_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3DE1CC17612831A483D72E8E77263A1E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342A52866CAC28D7F5D14818F953AB3D /* ReplaceMe.swift */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		0049B8EB714D5DE39B7B31F635312663 /* Pods-SSLog_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SSLog_Example-frameworks.sh"; sourceTree = "<group>"; };
+		03178A022673164B009CAC06 /* SSLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSLog.swift; sourceTree = "<group>"; };
 		0C31561F891F52706D064AD34DE56CC3 /* Pods-SSLog_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSLog_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		168A179191C15F574E83E1F48DA33F2F /* Pods-SSLog_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SSLog_Tests-umbrella.h"; sourceTree = "<group>"; };
 		1A0952A009707DD633F480D799CA9B47 /* SSLog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSLog.debug.xcconfig; sourceTree = "<group>"; };
@@ -172,6 +174,7 @@
 				342A52866CAC28D7F5D14818F953AB3D /* ReplaceMe.swift */,
 				BBA5CFB9554C4CA4530BCBCA394A09EA /* Pod */,
 				63F3B5E8366A9607BFEADDD82823D0FC /* Support Files */,
+				03178A022673164B009CAC06 /* SSLog.swift */,
 			);
 			name = SSLog;
 			path = ../..;
@@ -384,6 +387,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DE1CC17612831A483D72E8E77263A1E /* ReplaceMe.swift in Sources */,
+				03178A032673164B009CAC06 /* SSLog.swift in Sources */,
 				AF5B316D9364280AF71778417BDFBA8C /* SSLog-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
