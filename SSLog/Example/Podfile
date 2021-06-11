@@ -1,4 +1,5 @@
 use_frameworks!
+source 'https://github.com/dortus47/SSLog.git'
 
 platform :ios, '9.0'
 
