@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A7593A27623E8DC7E88F77C /* Pods_SSLog_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E839DAA9EF43F849D1BB9388 /* Pods_SSLog_Example.framework */; };
+		542734A66ED6D5DF977DD61D /* Pods_SSLog_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B756571A97789ACF489D9C27 /* Pods_SSLog_Example.framework */; };
+		599DB7DFB3CEF4DB51E6913D /* Pods_SSLog_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D7B8752D474C7EB481B50BB /* Pods_SSLog_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		7F62113A9FE8D7CCB8385DCC /* Pods_SSLog_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C85A65C221E0B9E856472529 /* Pods_SSLog_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,9 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		12BF81573D7E81E979BE7CAC /* Pods-SSLog_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSLog_Example.release.xcconfig"; path = "Target Support Files/Pods-SSLog_Example/Pods-SSLog_Example.release.xcconfig"; sourceTree = "<group>"; };
-		342AC18C43D703EA1E6E8B53 /* Pods-SSLog_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSLog_Example.debug.xcconfig"; path = "Target Support Files/Pods-SSLog_Example/Pods-SSLog_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		55274CA9C232236C126813FD /* Pods-SSLog_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSLog_Tests.release.xcconfig"; path = "Target Support Files/Pods-SSLog_Tests/Pods-SSLog_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1D7B8752D474C7EB481B50BB /* Pods_SSLog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSLog_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21B4B960ECEC2B465F8FA554 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		27DAFA92C48BCBDA5149BDD4 /* Pods-SSLog_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSLog_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SSLog_Tests/Pods-SSLog_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SSLog_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSLog_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,12 +41,12 @@
 		607FACE51AFB9204008FA782 /* SSLog_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSLog_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		76411138053BA0DCB0BF6EA7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		C85A65C221E0B9E856472529 /* Pods_SSLog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSLog_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC85FE568A2C5A161CCF0AD1 /* Pods-SSLog_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSLog_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SSLog_Tests/Pods-SSLog_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E839DAA9EF43F849D1BB9388 /* Pods_SSLog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSLog_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9742265EF87585E272F92E4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		FB2BABF381E069670AD4D5F8 /* SSLog.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SSLog.podspec; path = ../SSLog.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6204386C5E65F95B59CBD0EC /* SSLog.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SSLog.podspec; path = ../SSLog.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A318E3DC45B1F20B861D1BFE /* Pods-SSLog_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSLog_Tests.release.xcconfig"; path = "Target Support Files/Pods-SSLog_Tests/Pods-SSLog_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B756571A97789ACF489D9C27 /* Pods_SSLog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSLog_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C34E2976EB07EF90BAB7EA5A /* Pods-SSLog_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSLog_Example.release.xcconfig"; path = "Target Support Files/Pods-SSLog_Example/Pods-SSLog_Example.release.xcconfig"; sourceTree = "<group>"; };
+		EE4DB887BDC314B18A98596D /* Pods-SSLog_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSLog_Example.debug.xcconfig"; path = "Target Support Files/Pods-SSLog_Example/Pods-SSLog_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F879ADF4EE513DEE7C39CE95 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A7593A27623E8DC7E88F77C /* Pods_SSLog_Example.framework in Frameworks */,
+				542734A66ED6D5DF977DD61D /* Pods_SSLog_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,13 +62,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F62113A9FE8D7CCB8385DCC /* Pods_SSLog_Tests.framework in Frameworks */,
+				599DB7DFB3CEF4DB51E6913D /* Pods_SSLog_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C0EF2CF25CB972579F9250B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B756571A97789ACF489D9C27 /* Pods_SSLog_Example.framework */,
+				1D7B8752D474C7EB481B50BB /* Pods_SSLog_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		571294050781F9171BDCF5D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE4DB887BDC314B18A98596D /* Pods-SSLog_Example.debug.xcconfig */,
+				C34E2976EB07EF90BAB7EA5A /* Pods-SSLog_Example.release.xcconfig */,
+				27DAFA92C48BCBDA5149BDD4 /* Pods-SSLog_Tests.debug.xcconfig */,
+				A318E3DC45B1F20B861D1BFE /* Pods-SSLog_Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -76,8 +96,8 @@
 				607FACD21AFB9204008FA782 /* Example for SSLog */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				849406F0B3C5D1C5B2B163FE /* Pods */,
-				61ECB198456ADE2084FBE5BF /* Frameworks */,
+				571294050781F9171BDCF5D6 /* Pods */,
+				1C0EF2CF25CB972579F9250B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,31 +152,11 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				FB2BABF381E069670AD4D5F8 /* SSLog.podspec */,
-				76411138053BA0DCB0BF6EA7 /* README.md */,
-				E9742265EF87585E272F92E4 /* LICENSE */,
+				6204386C5E65F95B59CBD0EC /* SSLog.podspec */,
+				F879ADF4EE513DEE7C39CE95 /* README.md */,
+				21B4B960ECEC2B465F8FA554 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
-			sourceTree = "<group>";
-		};
-		61ECB198456ADE2084FBE5BF /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E839DAA9EF43F849D1BB9388 /* Pods_SSLog_Example.framework */,
-				C85A65C221E0B9E856472529 /* Pods_SSLog_Tests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		849406F0B3C5D1C5B2B163FE /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				342AC18C43D703EA1E6E8B53 /* Pods-SSLog_Example.debug.xcconfig */,
-				12BF81573D7E81E979BE7CAC /* Pods-SSLog_Example.release.xcconfig */,
-				DC85FE568A2C5A161CCF0AD1 /* Pods-SSLog_Tests.debug.xcconfig */,
-				55274CA9C232236C126813FD /* Pods-SSLog_Tests.release.xcconfig */,
-			);
-			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,11 +166,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SSLog_Example" */;
 			buildPhases = (
-				AF48B3D59554D3B8324396A1 /* [CP] Check Pods Manifest.lock */,
+				2D344DCA66C6732877BF1447 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				D7986E3A70B4624450DC70D3 /* [CP] Embed Pods Frameworks */,
+				702A68DDEDD67499D810B901 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -185,7 +185,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SSLog_Tests" */;
 			buildPhases = (
-				85557D5342EC02AD2D826DD5 /* [CP] Check Pods Manifest.lock */,
+				EA3CE89EF43C00FEEFB3DEC6 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
@@ -262,29 +262,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		85557D5342EC02AD2D826DD5 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SSLog_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AF48B3D59554D3B8324396A1 /* [CP] Check Pods Manifest.lock */ = {
+		2D344DCA66C6732877BF1447 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -306,7 +284,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D7986E3A70B4624450DC70D3 /* [CP] Embed Pods Frameworks */ = {
+		702A68DDEDD67499D810B901 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -322,6 +300,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SSLog_Example/Pods-SSLog_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA3CE89EF43C00FEEFB3DEC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SSLog_Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -475,7 +475,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 342AC18C43D703EA1E6E8B53 /* Pods-SSLog_Example.debug.xcconfig */;
+			baseConfigurationReference = EE4DB887BDC314B18A98596D /* Pods-SSLog_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SSLog/Info.plist;
@@ -490,7 +490,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12BF81573D7E81E979BE7CAC /* Pods-SSLog_Example.release.xcconfig */;
+			baseConfigurationReference = C34E2976EB07EF90BAB7EA5A /* Pods-SSLog_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SSLog/Info.plist;
@@ -505,7 +505,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DC85FE568A2C5A161CCF0AD1 /* Pods-SSLog_Tests.debug.xcconfig */;
+			baseConfigurationReference = 27DAFA92C48BCBDA5149BDD4 /* Pods-SSLog_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -527,7 +527,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 55274CA9C232236C126813FD /* Pods-SSLog_Tests.release.xcconfig */;
+			baseConfigurationReference = A318E3DC45B1F20B861D1BFE /* Pods-SSLog_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
