@@ -10,7 +10,6 @@
 		03178A032673164B009CAC06 /* SSLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03178A022673164B009CAC06 /* SSLog.swift */; };
 		09729591F2562E81A4A9ADC4974FED1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		3806DCFC9E31A736BC535D2C27907ACD /* Pods-SSLog_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FD64A6BB6A8084D1A22C757F6F2EF55 /* Pods-SSLog_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3DE1CC17612831A483D72E8E77263A1E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342A52866CAC28D7F5D14818F953AB3D /* ReplaceMe.swift */; };
 		42F1269D2A8FBC1E4A60C64FB23111E8 /* Pods-SSLog_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 168A179191C15F574E83E1F48DA33F2F /* Pods-SSLog_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7991C1955DFFB4F27ED511192596B9F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		A55622A029B62A5741CDD65987BF8A18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -45,7 +44,6 @@
 		1A0952A009707DD633F480D799CA9B47 /* SSLog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSLog.debug.xcconfig; sourceTree = "<group>"; };
 		2C15FA4CE22DD401891705FCDC575F5D /* SSLog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SSLog.modulemap; sourceTree = "<group>"; };
 		32454F71E67AB4526951CF2B3A1CAB9E /* SSLog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SSLog.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		342A52866CAC28D7F5D14818F953AB3D /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SSLog/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		42C1C9DBE615058F74168FD5D71C3BD0 /* Pods-SSLog_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSLog_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		46EE23E9996FDDBA39683CD676EA179A /* Pods-SSLog_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SSLog_Tests-dummy.m"; sourceTree = "<group>"; };
 		47A25A82589FDCA8F726E07803781289 /* Pods-SSLog_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SSLog_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -102,6 +100,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03178A04267323C6009CAC06 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				03178A022673164B009CAC06 /* SSLog.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		0502BEA01D22AA7942070E5BA917F933 /* Pods-SSLog_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,10 +177,9 @@
 		BAC0B787A51F10E46818B2E2964B027F /* SSLog */ = {
 			isa = PBXGroup;
 			children = (
-				342A52866CAC28D7F5D14818F953AB3D /* ReplaceMe.swift */,
+				03178A04267323C6009CAC06 /* Source */,
 				BBA5CFB9554C4CA4530BCBCA394A09EA /* Pod */,
 				63F3B5E8366A9607BFEADDD82823D0FC /* Support Files */,
-				03178A022673164B009CAC06 /* SSLog.swift */,
 			);
 			name = SSLog;
 			path = ../..;
@@ -386,7 +391,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DE1CC17612831A483D72E8E77263A1E /* ReplaceMe.swift in Sources */,
 				03178A032673164B009CAC06 /* SSLog.swift in Sources */,
 				AF5B316D9364280AF71778417BDFBA8C /* SSLog-dummy.m in Sources */,
 			);
