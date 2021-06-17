@@ -7,11 +7,13 @@
 //
 
 import UIKit
+import SSLog
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        SSLog.print(.success, "Hi")
         // Do any additional setup after loading the view, typically from a nib.
     }
 
