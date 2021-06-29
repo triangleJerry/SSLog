@@ -14,7 +14,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         SSLog.print(.success, "Hi")
-        SSLog.print2()
+        print("")
+        SSLog.print2(.canceled, "Hi2")
+        print("")
+        SSLog.print3(.error, "Hi3")
         // Do any additional setup after loading the view, typically from a nib.
     }
 
