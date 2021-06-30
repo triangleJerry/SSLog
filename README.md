@@ -4,9 +4,10 @@
 
 
 [![Version](https://img.shields.io/cocoapods/v/SSLog.svg?style=flat)](https://cocoapods.org/pods/SSLog)
-[![Platform](https://img.shields.io/cocoapods/p/SSLog.svg?style=flat)](https://cocoapods.org/pods/SSLog)
+
 <img src="https://img.shields.io/badge/Swift-FA7343?style=flat-square&logo=Swift&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/Xcode-147EFB?style=flat-square&logo=Xcode&logoColor=white"/></a>
+<img src="https://img.shields.io/badge/CocoaPods-EE3322?style=flat-square&logo=CocoaPods&logoColor=white"/></a>
 
 ## Example
 
