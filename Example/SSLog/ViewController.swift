@@ -13,11 +13,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        SSLog.print(.success, "Hi")
-        print("")
-        SSLog.print2(.canceled, "Hi2")
-        print("")
-        SSLog.print3(.error, "Hi3")
+        SSLog.simple(.success, "this Log is SSLog.simple method.\n")
+        SSLog.basic(.action, "this Log is SSLog.basic method.\n")
+        SSLog.detail(.error, "this Log is SSLog.basic method.\n")
         // Do any additional setup after loading the view, typically from a nib.
     }
 

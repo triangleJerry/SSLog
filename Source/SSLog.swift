@@ -16,6 +16,7 @@ public enum LogType: String{
 }
 
 public enum LogMode: Int{
+    case simple
     case basic
     case detail
 }
@@ -41,13 +42,13 @@ public class SSLog {
         return result
     }
     
-    public static func print(_ logType:LogType, _ Msg:String) {
+    public static func simple (_ logType:LogType, _ Msg:String) {
         let typeText = "[" + mkLogString(logType) + "]: "
         let result = typeText +  Msg
         Swift.print(result)
     }
     
-    public static func print2 (
+    public static func basic (
         _ logType:LogType,
         _ Msg:String,
         _ file : String                = #file,
@@ -65,7 +66,7 @@ public class SSLog {
         Swift.print(str)
     }
     
-    public static func print3 (
+    public static func detail (
         _ logType:LogType,
         _ Msg:String,
         _ file : String                = #file,
