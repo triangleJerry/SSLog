@@ -6,7 +6,7 @@
 [![Version](https://img.shields.io/cocoapods/v/SSLog.svg?style=flat)](https://cocoapods.org/pods/SSLog)
 [![Platform](https://img.shields.io/cocoapods/p/SSLog.svg?style=flat)](https://cocoapods.org/pods/SSLog)
 
-<img src="https://img.shields.io/badge/Swift-FA7343?style=flat-square&logo=Python&logoColor=white"/></a>
+<img src="https://img.shields.io/badge/Swift-FA7343?style=flat-square&logo=Swift&logoColor=white"/></a>
 
 ## Example
 
