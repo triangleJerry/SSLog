@@ -16,6 +16,8 @@ class ViewController: UIViewController {
         SSLog.simple(.success, "this Log is SSLog.simple method.\n")
         SSLog.basic(.action, "this Log is SSLog.basic method.\n")
         SSLog.detail(.error, "this Log is SSLog.basic method.\n")
+        //usleep(5000)
+        SSLog.detail(.warning, "this Log is SSLog.basic method.\n")
         // Do any additional setup after loading the view, typically from a nib.
     }
 

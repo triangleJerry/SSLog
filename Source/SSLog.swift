@@ -71,17 +71,24 @@ public class SSLog {
         _ Msg:String,
         _ file : String                = #file,
         _ function : String            = #function,
-        _ line : Int                   = #line
+        _ line : Int                   = #line,
+        _ dsohandle : UnsafeRawPointer = #dsohandle
         ) {
 
         let fileUrl                    = URL(fileURLWithPath: file)
         let fileName                   = fileUrl.deletingPathExtension().lastPathComponent
         let typeText = mkLogString(logType)
+        let formatter = DateFormatter()
+        formatter.dateFormat = "yyyy-MM-dd HH:mm:ss +SSSS"
+        let current_date_string = formatter.string(from: Date())
+        
         var str                        = """
-        [fileUrl: \(fileUrl)
+        [Date: \(current_date_string)
+        fileUrl: \(fileUrl)
         fileName: \(fileName)
         function: \(function)
         line: \(line)
+        dsohandle: \(dsohandle)
         \(typeText)]:
         """
         str = str + " " + Msg
