@@ -102,12 +102,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03178A04267323C6009CAC06 /* Source */ = {
+		03178A04267323C6009CAC06 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				0311B122267B1994006E6238 /* SSLog.swift */,
 			);
-			path = Source;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		0502BEA01D22AA7942070E5BA917F933 /* Pods-SSLog_Tests */ = {
@@ -179,7 +179,7 @@
 		BAC0B787A51F10E46818B2E2964B027F /* SSLog */ = {
 			isa = PBXGroup;
 			children = (
-				03178A04267323C6009CAC06 /* Source */,
+				03178A04267323C6009CAC06 /* Classes */,
 				BBA5CFB9554C4CA4530BCBCA394A09EA /* Pod */,
 				63F3B5E8366A9607BFEADDD82823D0FC /* Support Files */,
 			);
