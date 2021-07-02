@@ -31,9 +31,9 @@ public class SSLog {
         case LogType.warning:
             type += "📙Warning"
         case LogType.success:
-            type += "📗Success"
+            type += "📗Action"
         case LogType.action:
-            type += "📘Action"
+            type += "📘Success"
         case LogType.canceled:
             type += "📓Cancelled"
         }

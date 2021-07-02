@@ -26,6 +26,34 @@ pod 'SSLog'
 
 ## How to use
 
+### type
+SSLog has a total of 5 types to make it easier to distinguish between logs.
+- `error` : "📕Error"
+- `warning` : "📙Warning"
+- `action` : "📗Action"
+- `success` : "📘Success"
+- `cancelled` : "📓Cancelled"
+
+These types can be used to classify logs according to their intended use and search Xocode for easy and easy to find.
+
+        SSLog.simple(.success, "this Log is SSLog.type success.\n")
+
+
+### method
+SSLog provides three methods for easy and easy logging.
+- `simple`
+    This is the simplest method for log output that represents only one of the five log types introduced above and the message to be outputted.
+
+        SSLog.simple(.success, "this Log is SSLog.simple method.\n")
+
+- `basic`
+    In addition to the log type and messages, the name, method name, line, and so on of the file to which the method was called is added.
+
+        SSLog.basic(.action, "this Log is SSLog.basic method.\n")
+- `detail`
+    detail은 Date, fileUrl, fileName, function, line, A method that helps dsohandle output the most detailed log.
+
+            SSLog.detail(.warning, "this Log is SSLog.detail method.\n")
 
 
 ## Author
