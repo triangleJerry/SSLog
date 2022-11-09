@@ -46,7 +46,6 @@
 
 /* Begin PBXFileReference section */
 		OBJ_12 /* SSLogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSLogTests.swift; sourceTree = "<group>"; };
-		OBJ_17 /* Example */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Example; sourceTree = SOURCE_ROOT; };
 		OBJ_19 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		OBJ_20 /* SSLog.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SSLog.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		OBJ_21 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -108,7 +107,6 @@
 				OBJ_7 /* Sources */,
 				OBJ_10 /* Tests */,
 				OBJ_13 /* Products */,
-				OBJ_17 /* Example */,
 				OBJ_19 /* LICENSE */,
 				OBJ_20 /* SSLog.podspec */,
 				OBJ_21 /* README.md */,
