@@ -1,0 +1,4 @@
+module SSLog {
+    header "/Users/jang-eunseog/Documents/SSLog/.build/arm64-apple-macosx/debug/SSLog.build/SSLog-Swift.h"
+    requires objc
+}

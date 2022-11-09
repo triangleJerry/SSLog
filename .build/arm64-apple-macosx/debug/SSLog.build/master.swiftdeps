@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)"
+options: "09671f38272d63c0fa4905c2e476f26882a6537e0f76b6dd463390c3657d85be"
+build_start_time: [1667983371, 363905906]
+build_end_time: [1667983371, 913964986]
+inputs:
+  "/Users/jang-eunseog/Documents/SSLog/Sources/SSLog/SSLog.swift": [1667983365, 620240688]

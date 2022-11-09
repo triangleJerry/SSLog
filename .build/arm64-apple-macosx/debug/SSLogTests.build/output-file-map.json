@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/jang-eunseog/Documents/SSLog/.build/arm64-apple-macosx/debug/SSLogTests.build/master.swiftdeps"
+  },
+  "/Users/jang-eunseog/Documents/SSLog/Tests/SSLogTests/SSLogTests.swift": {
+    "dependencies": "/Users/jang-eunseog/Documents/SSLog/.build/arm64-apple-macosx/debug/SSLogTests.build/SSLogTests.d",
+    "object": "/Users/jang-eunseog/Documents/SSLog/.build/arm64-apple-macosx/debug/SSLogTests.build/SSLogTests.swift.o",
+    "swiftmodule": "/Users/jang-eunseog/Documents/SSLog/.build/arm64-apple-macosx/debug/SSLogTests.build/SSLogTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/jang-eunseog/Documents/SSLog/.build/arm64-apple-macosx/debug/SSLogTests.build/SSLogTests.swiftdeps"
+  }
+}
