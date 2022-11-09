@@ -7,7 +7,7 @@
 
 import Foundation
 
-public enum LogType: String{
+public enum LogType: String {
     case error
     case warning
     case success
@@ -15,7 +15,7 @@ public enum LogType: String{
     case canceled
 }
 
-public enum LogMode: Int{
+public enum LogMode: Int {
     case simple
     case basic
     case detail
@@ -94,27 +94,5 @@ public class SSLog {
         str = str + " " + Msg
         Swift.print(str)
     }
-    
-//    public static func print2 (
-//        _ logType:LogType,
-//        _ Msg:String,
-//        header : String                = "",
-//        _ file : String                = #file,
-//        _ function : String            = #function,
-//        _ line : Int                   = #line,
-//        _ dsohandle : UnsafeRawPointer = #dsohandle
-//        ) {
-//
-//        let fileUrl                    = URL(fileURLWithPath: file)
-//        let fileName                   = fileUrl.deletingPathExtension().lastPathComponent
-//        let header                     = header.isEmpty ? "" : "[ \(header) ] - "
-//
-//        let str                        = """
-//        👻👻👻
-//        \(fileName) / \(header) / \(function)
-//        👻👻👻
-//        """
-//        Swift.print(str)
-//    }
 }
 
