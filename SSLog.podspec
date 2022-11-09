@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SSLog'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = 'SSLog is Simple Swift Log library.'
 
 # This description is used to generate tags and improve search results.
@@ -42,7 +42,7 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-  s.source_files = 'SSLog/Classes/**/*'
+  s.source_files = 'SSLog/Sources/**/*'
   s.swift_version = '5.0'
   
   # s.resource_bundles = {

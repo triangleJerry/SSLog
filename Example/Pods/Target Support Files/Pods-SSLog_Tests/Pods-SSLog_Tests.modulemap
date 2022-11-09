@@ -1,6 +1,0 @@
-framework module Pods_SSLog_Tests {
-  umbrella header "Pods-SSLog_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}
